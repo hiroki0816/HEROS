@@ -38,14 +38,58 @@ body {
     text-align: justify;
 }
 
-  .info {
+  .contact {
       text-align: center;
       margin-top: 45px;
-      font-size: 23px;
+      font-size: 17px;
+      letter-spacing: 0.05em;
+      margin-bottom: 19px;
   }
+
+.logo_ver {
+  text-align: center;
+  max-width: 215px;
+}
+
+.contact_img {
+  width: 47px;
+  height: auto;
+  margin: 0 11px;
+}
+
+.contact_wrapper {
+  display: flex;
+  justify-content: center;
+}
 
   @media screen and (max-width:480px) { 
     .text_wrapper {
         margin: 55px 10px 0;
     }
+
+    .desc {
+      padding: 0 11%;
+    }
+
+    .logo {
+      display: none;
+    }
+
+    .img_wrapper {
+      margin: 45px auto 0;
+  }
+
+    .text_wrapper {
+      margin-top: 45px;
+  }
+
+    .contact {
+      margin-top: 40px;
+  }
+}
+
+@media screen and (min-width:480px) { 
+  .logo_ver {
+    display: none;
+  }
 }
